@@ -91,7 +91,7 @@ const subFile = async (filePath, fileName, folder) => {
 	const tempOutputWithOutExt = tempOutPath.replace('.json', '');
 
 	execSync(
-		`${executable} -f ${filePath} --output-file ${tempOutputWithOutExt} --output-json --max-len 1 -m ${modelPath}`,
+		`${executable} -f ${filePath} --language fr --output-file ${tempOutputWithOutExt} --output-json --max-len 1 -m ${modelPath}`,
 		{cwd: WHISPER_PATH},
 	);
 

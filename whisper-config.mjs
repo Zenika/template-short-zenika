@@ -24,4 +24,4 @@ export const WHISPER_VERSION = '1.5.4';
 /**
  * @type {import('@remotion/install-whisper-cpp').WhisperModel}
  */
-export const WHISPER_MODEL = 'medium.en';
+export const WHISPER_MODEL = 'medium';
